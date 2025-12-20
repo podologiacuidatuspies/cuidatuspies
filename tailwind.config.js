@@ -92,12 +92,12 @@ export default {
             },
             backgroundImage: {
                 'gradient-primary': 'var(--gradient-primary)',
-                'gradient-card': 'var(--gradient-card)',
-                'gradient-background': 'var(--gradient-background)'
+                'gradient-hero': 'var(--gradient-hero)',
+                'gradient-soft': 'var(--gradient-soft)'
             },
             boxShadow: {
                 card: 'var(--shadow-card)',
-                hover: 'var(--shadow-hover)'
+                soft: 'var(--shadow-soft)'
             },
             keyframes: {
                 'accordion-down': {
