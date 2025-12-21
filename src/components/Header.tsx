@@ -31,9 +31,9 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center gap-3">
             <img 
-              src="https://miaoda-site-img.s3cdn.medo.dev/images/2daf0c2e-48a5-4e3c-bc66-ffcaafb46e60.jpg" 
-              alt="Cuida Tus Pies Logo" 
-              className="h-12 w-12 rounded-full object-cover"
+              src="/logo-cuida-tus-pies.png" 
+              alt="Cuida Tus Pies - Clínica Podológica Móvil" 
+              className="h-14 w-14 object-contain"
             />
             <span className="text-xl font-bold text-foreground hidden sm:inline">
               Cuida Tus Pies
@@ -65,9 +65,9 @@ const Header = () => {
               <div className="flex flex-col gap-6 mt-8">
                 <div className="flex items-center gap-3 pb-4 border-b border-border">
                   <img 
-                    src="https://miaoda-site-img.s3cdn.medo.dev/images/2daf0c2e-48a5-4e3c-bc66-ffcaafb46e60.jpg" 
-                    alt="Cuida Tus Pies Logo" 
-                    className="h-12 w-12 rounded-full object-cover"
+                    src="/logo-cuida-tus-pies.png" 
+                    alt="Cuida Tus Pies - Clínica Podológica Móvil" 
+                    className="h-14 w-14 object-contain"
                   />
                   <span className="text-xl font-bold text-foreground">
                     Cuida Tus Pies
