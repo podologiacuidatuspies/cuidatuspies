@@ -27,13 +27,13 @@ const Header = () => {
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container mx-auto px-6 xl:px-12">
-        <div className="flex h-24 items-center justify-between">
+        <div className="flex h-40 items-center justify-between py-4">
           {/* Logo */}
           <div className="flex items-center gap-4">
             <img 
               src="/logo-cuida-tus-pies.png" 
               alt="Cuida Tus Pies - Clínica Podológica Móvil" 
-              className="h-[60px] w-[60px] object-contain"
+              className="h-[150px] w-[150px] object-contain"
             />
             <span className="text-xl font-bold text-foreground hidden sm:inline">
               Cuida Tus Pies
@@ -67,7 +67,7 @@ const Header = () => {
                   <img 
                     src="/logo-cuida-tus-pies.png" 
                     alt="Cuida Tus Pies - Clínica Podológica Móvil" 
-                    className="h-[60px] w-[60px] object-contain"
+                    className="h-[150px] w-[150px] object-contain"
                   />
                   <span className="text-xl font-bold text-foreground">
                     Cuida Tus Pies
