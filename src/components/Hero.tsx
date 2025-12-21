@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { MessageCircle } from "lucide-react";
+import WhatsAppIcon from "@/components/icons/WhatsAppIcon";
 
 const Hero = () => {
   const whatsappNumber = "56912345678"; // Número de WhatsApp de ejemplo
@@ -32,8 +32,8 @@ const Hero = () => {
               size="lg"
               className="bg-primary hover:bg-primary/90 text-primary-foreground text-lg px-8 py-6 shadow-soft transition-all duration-300 hover:scale-105"
             >
-              <a href={whatsappLink} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
-                <MessageCircle className="w-6 h-6" />
+              <a href={whatsappLink} target="_blank" rel="noopener noreferrer" className="flex items-center gap-3">
+                <WhatsAppIcon size={28} />
                 Agendar por WhatsApp
               </a>
             </Button>
