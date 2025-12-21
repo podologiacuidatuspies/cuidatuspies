@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 
 const Hero = () => {
-  const whatsappNumber = "56912345678"; // Número de WhatsApp de ejemplo
+  const whatsappNumber = "56935835479"; // Número de WhatsApp: +56 9 3583 5479
   const whatsappMessage = encodeURIComponent("Hola, me gustaría agendar una consulta de podología");
   const whatsappLink = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`;
 
