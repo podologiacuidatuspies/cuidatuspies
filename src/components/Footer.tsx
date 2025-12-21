@@ -12,7 +12,7 @@ const Footer = () => {
               Podología profesional con Laura Núñez Morales
             </p>
             <div className="space-y-2 text-sm text-foreground/70">
-              <p>📱 WhatsApp: +56 9 1234 5678</p>
+              <p>📱 WhatsApp: +56 9 3583 5479</p>
               <p>📧 Email: contacto@cuidatuspies.cl</p>
             </div>
           </div>
