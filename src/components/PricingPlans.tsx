@@ -23,7 +23,7 @@ const PricingPlans = () => {
     },
     {
       icon: "🏥",
-      name: "Plan Podología Clínica / Diabética",
+      name: "Plan Podología Clínica",
       duration: "60 minutos",
       price: "$27.500",
       ideal: "Micosis leve, durezas, resequedad o cuidado preventivo diabético",
