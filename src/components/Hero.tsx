@@ -32,7 +32,7 @@ const Hero = () => {
               className="bg-primary hover:bg-primary/90 text-primary-foreground text-lg px-8 py-6 shadow-soft transition-all duration-300 hover:scale-105"
             >
               <a href={whatsappLink} target="_blank" rel="noopener noreferrer" className="flex items-center gap-3">
-                <img src="/whatsapp.png" alt="WhatsApp" className="w-7 h-7" />
+                <img src="/whatsapp.png" alt="WhatsApp" className="w-[42px] h-[42px]" />
                 Agendar por WhatsApp
               </a>
             </Button>
