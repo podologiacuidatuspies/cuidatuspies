@@ -27,13 +27,13 @@ const Header = () => {
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container mx-auto px-6 xl:px-12">
-        <div className="flex h-20 items-center justify-between">
+        <div className="flex h-40 items-center justify-between py-4">
           {/* Logo */}
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-4">
             <img 
               src="/logo-cuida-tus-pies.png" 
               alt="Cuida Tus Pies - Clínica Podológica Móvil" 
-              className="h-14 w-14 object-contain"
+              className="h-[150px] w-[150px] object-contain"
             />
             <span className="text-xl font-bold text-foreground hidden sm:inline">
               Cuida Tus Pies
@@ -63,11 +63,11 @@ const Header = () => {
             </SheetTrigger>
             <SheetContent side="right" className="w-[300px] sm:w-[400px]">
               <div className="flex flex-col gap-6 mt-8">
-                <div className="flex items-center gap-3 pb-4 border-b border-border">
+                <div className="flex items-center gap-4 pb-4 border-b border-border">
                   <img 
                     src="/logo-cuida-tus-pies.png" 
                     alt="Cuida Tus Pies - Clínica Podológica Móvil" 
-                    className="h-14 w-14 object-contain"
+                    className="h-[150px] w-[150px] object-contain"
                   />
                   <span className="text-xl font-bold text-foreground">
                     Cuida Tus Pies
