@@ -12,35 +12,38 @@ const Hero = () => {
       
       {/* Contenido */}
       <div className="container mx-auto px-6 xl:px-12 relative z-10 py-20">
-        <div className="max-w-4xl mx-auto text-center space-y-8 animate-fade-in">
-          {/* Título principal */}
-          <h1 className="text-4xl xl:text-6xl font-bold text-foreground leading-tight">
-            Podología Profesional: Salud, Bienestar y Confianza en Cada Paso
-          </h1>
-          
-          {/* Subtítulo con emojis */}
-          <p className="text-lg xl:text-2xl text-foreground/80 leading-relaxed max-w-3xl mx-auto">
-            👣 Cuidamos tus pies como se merecen. ✨ Evaluación, tratamiento y prevención especializada. 
-            Agenda tu consulta y recupera la comodidad
-          </p>
-          
-          {/* Botón CTA principal */}
-          <div className="pt-6">
-            <Button
-              asChild
-              size="lg"
-              className="bg-primary hover:bg-primary/90 text-primary-foreground text-lg px-8 py-6 shadow-soft transition-all duration-300 hover:scale-105"
-            >
-              <a href={whatsappLink} target="_blank" rel="noopener noreferrer" className="flex items-center gap-3">
-                <img src="/whatsapp.png" alt="WhatsApp" className="w-[42px] h-[42px]" />
-                Agendar por WhatsApp
-              </a>
-            </Button>
+        <div className="grid xl:grid-cols-2 gap-12 items-center">
+          {/* Columna izquierda: Texto y botón */}
+          <div className="space-y-8 animate-fade-in">
+            {/* Título principal */}
+            <h1 className="text-4xl xl:text-5xl font-bold text-foreground leading-tight">
+              Podología Profesional: Salud, Bienestar y Confianza en Cada Paso
+            </h1>
+            
+            {/* Subtítulo con emojis */}
+            <p className="text-lg xl:text-xl text-foreground/80 leading-relaxed">
+              👣 Cuidamos tus pies como se merecen. ✨ Evaluación, tratamiento y prevención especializada. 
+              Agenda tu consulta y recupera la comodidad
+            </p>
+            
+            {/* Botón CTA principal */}
+            <div className="pt-4">
+              <Button
+                asChild
+                size="lg"
+                className="bg-primary hover:bg-primary/90 text-primary-foreground text-lg px-8 py-6 shadow-soft transition-all duration-300 hover:scale-105"
+              >
+                <a href={whatsappLink} target="_blank" rel="noopener noreferrer" className="flex items-center gap-3">
+                  <img src="/whatsapp.png" alt="WhatsApp" className="w-[42px] h-[42px]" />
+                  Agendar por WhatsApp
+                </a>
+              </Button>
+            </div>
           </div>
-          
-          {/* Imagen decorativa de pies cuidados */}
-          <div className="pt-12">
-            <div className="relative w-full max-w-2xl mx-auto rounded-2xl overflow-hidden shadow-soft">
+
+          {/* Columna derecha: Imagen decorativa */}
+          <div className="relative w-full animate-fade-in">
+            <div className="relative w-full rounded-2xl overflow-hidden shadow-soft">
               <img
                 src="https://miaoda-site-img.s3cdn.medo.dev/images/82bb7a26-0e8b-4fd8-a274-db9e2d001bc9.jpg"
                 alt="Pies saludables y bien cuidados"
