@@ -11,7 +11,7 @@ const PricingPlans = () => {
       name: "Plan Podología Básica",
       duration: "45 minutos",
       price: "$25.000",
-      ideal: "Mantenimiento y limpieza general",
+      ideal: "Mantenimiento de uñas, durezas y limpieza general",
       features: [
         "Corte y limado de uñas",
         "Retiro de durezas",
