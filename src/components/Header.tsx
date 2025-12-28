@@ -31,7 +31,7 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center gap-4">
             <img 
-              src="/logo-cuida-tus-pies.png" 
+              src="/logo-cuida-tus-pies-nuevo.jpg" 
               alt="Cuida Tus Pies - Clínica Podológica Móvil" 
               className="h-[180px] w-[180px] object-contain"
             />
@@ -62,7 +62,7 @@ const Header = () => {
               <div className="flex flex-col gap-6 mt-8">
                 <div className="flex items-center gap-4 pb-4 border-b border-border">
                   <img 
-                    src="/logo-cuida-tus-pies.png" 
+                    src="/logo-cuida-tus-pies-nuevo.jpg" 
                     alt="Cuida Tus Pies - Clínica Podológica Móvil" 
                     className="h-[180px] w-[180px] object-contain"
                   />
