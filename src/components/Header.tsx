@@ -35,9 +35,6 @@ const Header = () => {
               alt="Cuida Tus Pies - Clínica Podológica Móvil" 
               className="h-[180px] w-[180px] object-contain"
             />
-            <span className="text-xl font-bold text-foreground hidden sm:inline">
-              Cuida Tus Pies
-            </span>
           </div>
 
           {/* Desktop Navigation */}
