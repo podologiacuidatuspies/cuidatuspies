@@ -11,7 +11,7 @@ All colors MUST be HSL.
   :root {
     --radius: 0.75rem;
     
-    /* Soft pastel color palette: light blue, aqua green, beige */
+    /* Color palette with cyan primary (#3DB6D3) */
     --background: 40 30% 97%;
     --foreground: 200 15% 25%;
     
@@ -21,9 +21,9 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 200 15% 25%;
     
-    /* Primary: Soft aqua blue */
-    --primary: 190 60% 65%;
-    --primary-foreground: 200 20% 15%;
+    /* Primary: Vibrant cyan (#3DB6D3) */
+    --primary: 192 64% 53%;
+    --primary-foreground: 0 0% 100%;
     
     /* Secondary: Soft aqua green */
     --secondary: 165 45% 75%;
@@ -42,9 +42,9 @@ All colors MUST be HSL.
     
     --border: 40 20% 88%;
     --input: 40 20% 88%;
-    --ring: 190 60% 65%;
+    --ring: 192 64% 53%;
     
-    --chart-1: 190 60% 65%;
+    --chart-1: 192 64% 53%;
     --chart-2: 165 45% 75%;
     --chart-3: 40 40% 75%;
     --chart-4: 200 50% 70%;
@@ -52,19 +52,19 @@ All colors MUST be HSL.
     
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 200 15% 25%;
-    --sidebar-primary: 190 60% 65%;
-    --sidebar-primary-foreground: 200 20% 15%;
+    --sidebar-primary: 192 64% 53%;
+    --sidebar-primary-foreground: 0 0% 100%;
     --sidebar-accent: 40 25% 92%;
     --sidebar-accent-foreground: 200 15% 25%;
     --sidebar-border: 40 20% 88%;
-    --sidebar-ring: 190 60% 65%;
+    --sidebar-ring: 192 64% 53%;
     
-    /* Custom gradients for podiatry theme */
-    --gradient-hero: linear-gradient(135deg, hsl(190 60% 85%), hsl(165 45% 85%), hsl(40 40% 88%));
-    --gradient-primary: linear-gradient(135deg, hsl(190 60% 65%), hsl(165 45% 75%));
-    --gradient-soft: linear-gradient(135deg, hsl(190 60% 95%), hsl(165 45% 95%));
+    /* Custom gradients with cyan primary */
+    --gradient-hero: linear-gradient(135deg, hsl(192 64% 75%), hsl(165 45% 85%), hsl(40 40% 88%));
+    --gradient-primary: linear-gradient(135deg, hsl(192 64% 53%), hsl(192 64% 65%));
+    --gradient-soft: linear-gradient(135deg, hsl(192 64% 95%), hsl(165 45% 95%));
     
-    --shadow-soft: 0 4px 20px hsl(190 60% 65% / 0.15);
+    --shadow-soft: 0 4px 20px hsl(192 64% 53% / 0.15);
     --shadow-card: 0 2px 12px hsl(200 15% 25% / 0.08);
   }
 
@@ -78,8 +78,8 @@ All colors MUST be HSL.
     --popover: 200 20% 15%;
     --popover-foreground: 40 30% 95%;
     
-    --primary: 190 50% 55%;
-    --primary-foreground: 40 30% 95%;
+    --primary: 192 64% 53%;
+    --primary-foreground: 0 0% 100%;
     
     --secondary: 165 35% 45%;
     --secondary-foreground: 40 30% 95%;
@@ -95,9 +95,9 @@ All colors MUST be HSL.
     
     --border: 200 15% 25%;
     --input: 200 15% 25%;
-    --ring: 190 50% 55%;
+    --ring: 192 64% 53%;
     
-    --chart-1: 190 50% 55%;
+    --chart-1: 192 64% 53%;
     --chart-2: 165 35% 55%;
     --chart-3: 40 40% 55%;
     --chart-4: 200 45% 50%;
@@ -105,18 +105,18 @@ All colors MUST be HSL.
     
     --sidebar-background: 200 20% 10%;
     --sidebar-foreground: 40 30% 95%;
-    --sidebar-primary: 190 50% 55%;
-    --sidebar-primary-foreground: 40 30% 95%;
+    --sidebar-primary: 192 64% 53%;
+    --sidebar-primary-foreground: 0 0% 100%;
     --sidebar-accent: 200 15% 20%;
     --sidebar-accent-foreground: 40 30% 95%;
     --sidebar-border: 200 15% 25%;
-    --sidebar-ring: 190 50% 55%;
+    --sidebar-ring: 192 64% 53%;
     
-    --gradient-hero: linear-gradient(135deg, hsl(190 50% 25%), hsl(165 35% 25%), hsl(40 20% 20%));
-    --gradient-primary: linear-gradient(135deg, hsl(190 50% 55%), hsl(165 35% 55%));
-    --gradient-soft: linear-gradient(135deg, hsl(190 50% 20%), hsl(165 35% 20%));
+    --gradient-hero: linear-gradient(135deg, hsl(192 64% 25%), hsl(165 35% 25%), hsl(40 20% 20%));
+    --gradient-primary: linear-gradient(135deg, hsl(192 64% 53%), hsl(192 64% 65%));
+    --gradient-soft: linear-gradient(135deg, hsl(192 64% 20%), hsl(165 35% 20%));
     
-    --shadow-soft: 0 4px 20px hsl(190 50% 55% / 0.2);
+    --shadow-soft: 0 4px 20px hsl(192 64% 53% / 0.2);
     --shadow-card: 0 2px 12px hsl(0 0% 0% / 0.3);
   }
 }
