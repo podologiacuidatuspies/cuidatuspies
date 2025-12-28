@@ -33,7 +33,8 @@ const Header = () => {
             <img 
               src="/logo-cuida-tus-pies-nuevo.jpg" 
               alt="Cuida Tus Pies - Clínica Podológica Móvil" 
-              className="h-[180px] w-[180px] object-contain"
+              className="h-[180px] w-[180px] object-contain rounded-full"
+              style={{ clipPath: 'circle(49% at 50% 50%)' }}
             />
           </div>
 
@@ -64,7 +65,8 @@ const Header = () => {
                   <img 
                     src="/logo-cuida-tus-pies-nuevo.jpg" 
                     alt="Cuida Tus Pies - Clínica Podológica Móvil" 
-                    className="h-[180px] w-[180px] object-contain"
+                    className="h-[180px] w-[180px] object-contain rounded-full"
+                    style={{ clipPath: 'circle(49% at 50% 50%)' }}
                   />
                   <span className="text-xl font-bold text-foreground">
                     Cuida Tus Pies
