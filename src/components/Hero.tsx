@@ -11,10 +11,10 @@ const Hero = () => {
       <div className="absolute inset-0 bg-background/40" />
       
       {/* Contenido */}
-      <div className="container mx-auto px-6 xl:px-12 relative z-10 py-20">
-        <div className="space-y-12">
+      <div className="container mx-auto px-6 xl:px-12 relative z-10 py-12">
+        <div className="space-y-16">
           {/* Título principal - Arriba de todo */}
-          <div className="text-center animate-fade-in">
+          <div className="text-center animate-fade-in pt-8">
             <h1 className="text-4xl xl:text-6xl font-bold text-foreground leading-tight">
               Podología Profesional: Salud, Bienestar y Confianza en Cada Paso
             </h1>
