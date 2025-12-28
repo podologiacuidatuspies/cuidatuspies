@@ -44,7 +44,7 @@ const Header = () => {
               <button
                 key={item.href}
                 onClick={() => scrollToSection(item.href)}
-                className="text-sm font-medium text-white hover:text-white/80 transition-colors"
+                className="text-sm font-medium text-black hover:text-black/70 transition-colors"
               >
                 {item.label}
               </button>
@@ -54,7 +54,7 @@ const Header = () => {
           {/* Mobile Menu */}
           <Sheet open={isOpen} onOpenChange={setIsOpen}>
             <SheetTrigger asChild className="lg:hidden">
-              <Button variant="ghost" size="icon" className="text-white hover:text-white/80 hover:bg-white/10">
+              <Button variant="ghost" size="icon" className="text-black hover:text-black/70 hover:bg-black/10">
                 <Menu className="h-6 w-6" />
                 <span className="sr-only">Abrir menú</span>
               </Button>
