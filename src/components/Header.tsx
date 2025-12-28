@@ -25,7 +25,7 @@ const Header = () => {
   };
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+    <header className="sticky top-0 z-50 w-full border-b border-border bg-[#3DB6D3] shadow-md">
       <div className="container mx-auto px-6 xl:px-12">
         <div className="flex h-48 items-center justify-between py-4">
           {/* Logo */}
@@ -43,7 +43,7 @@ const Header = () => {
               <button
                 key={item.href}
                 onClick={() => scrollToSection(item.href)}
-                className="text-sm font-medium text-foreground/70 hover:text-primary transition-colors"
+                className="text-sm font-medium text-white hover:text-white/80 transition-colors"
               >
                 {item.label}
               </button>
@@ -53,7 +53,7 @@ const Header = () => {
           {/* Mobile Menu */}
           <Sheet open={isOpen} onOpenChange={setIsOpen}>
             <SheetTrigger asChild className="lg:hidden">
-              <Button variant="ghost" size="icon">
+              <Button variant="ghost" size="icon" className="text-white hover:text-white/80 hover:bg-white/10">
                 <Menu className="h-6 w-6" />
                 <span className="sr-only">Abrir menú</span>
               </Button>
