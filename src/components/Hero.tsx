@@ -6,15 +6,15 @@ const Hero = () => {
   const whatsappLink = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`;
 
   return (
-    <section className="relative min-h-screen flex items-center overflow-hidden bg-gradient-hero">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-hero">
       {/* Overlay suave */}
       <div className="absolute inset-0 bg-background/40" />
       
       {/* Contenido */}
-      <div className="container mx-auto px-6 xl:px-12 relative z-10 py-12">
+      <div className="container mx-auto px-6 xl:px-12 relative z-10">
         <div className="space-y-16">
           {/* Título principal - Arriba de todo */}
-          <div className="text-center animate-fade-in pt-8">
+          <div className="text-center animate-fade-in">
             <h1 className="text-4xl xl:text-6xl font-bold text-foreground leading-tight">
               Podología Profesional: Salud, Bienestar y Confianza en Cada Paso
             </h1>
