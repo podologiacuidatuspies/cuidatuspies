@@ -49,8 +49,8 @@ const Hero = () => {
             <div className="relative w-full animate-fade-in">
               <div className="relative w-full rounded-2xl overflow-hidden shadow-soft">
                 <img
-                  src="https://miaoda-site-img.s3cdn.medo.dev/images/82bb7a26-0e8b-4fd8-a274-db9e2d001bc9.jpg"
-                  alt="Pies saludables y bien cuidados"
+                  src="/hero-podologia.jpg"
+                  alt="Podóloga profesional realizando tratamiento de uñas con instrumental especializado"
                   className="w-full h-auto object-cover"
                 />
               </div>
