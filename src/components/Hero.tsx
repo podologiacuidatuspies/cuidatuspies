@@ -6,7 +6,7 @@ const Hero = () => {
   const whatsappLink = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`;
 
   return (
-    <section className="relative min-h-screen flex items-start overflow-hidden bg-gradient-hero pt-20">
+    <section className="relative min-h-screen flex items-start overflow-hidden bg-gradient-hero pt-16">
       {/* Overlay suave */}
       <div className="absolute inset-0 bg-background/40" />
       
