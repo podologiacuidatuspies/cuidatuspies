@@ -22,7 +22,7 @@ const ValueProposition = () => {
           
           {/* Imagen de la podóloga en acción */}
           <div className="pt-8">
-            <div className="relative w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-card">
+            <div className="relative w-full max-w-xl mx-auto rounded-2xl overflow-hidden shadow-card">
               <img
                 src="/laura-profesional.png"
                 alt="Laura Núñez Morales, podóloga profesional"
