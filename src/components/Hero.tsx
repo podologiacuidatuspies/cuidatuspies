@@ -6,12 +6,12 @@ const Hero = () => {
   const whatsappLink = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`;
 
   return (
-    <section className="relative min-h-screen flex items-center overflow-hidden bg-gradient-hero pt-24 xl:pt-32">
+    <section className="relative min-h-screen flex items-center overflow-hidden bg-gradient-hero pt-12 xl:pt-16">
       {/* Overlay suave */}
       <div className="absolute inset-0 bg-background/40" />
       
       {/* Contenido */}
-      <div className="container mx-auto px-6 xl:px-12 relative z-10 py-8">
+      <div className="container mx-auto px-6 xl:px-12 relative z-10 py-4">
         <div className="space-y-16">
           {/* Título principal - Arriba de todo */}
           <div className="text-center animate-fade-in">
