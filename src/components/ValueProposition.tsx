@@ -24,8 +24,8 @@ const ValueProposition = () => {
           <div className="pt-8">
             <div className="relative w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-card">
               <img
-                src="https://miaoda-site-img.s3cdn.medo.dev/images/7367d4b2-84c3-47a3-89c0-6bc726a35a4a.jpg"
-                alt="Laura Núñez Morales, podóloga profesional en consulta"
+                src="/laura-profesional.png"
+                alt="Laura Núñez Morales, podóloga profesional"
                 className="w-full h-auto object-cover"
               />
             </div>
