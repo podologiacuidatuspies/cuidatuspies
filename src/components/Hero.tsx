@@ -16,7 +16,7 @@ const Hero = () => {
           {/* Título principal - Arriba de todo */}
           <div className="text-center animate-fade-in">
             <h1 className="text-4xl xl:text-6xl font-bold text-foreground leading-tight">
-              Podología Profesional: Salud, Bienestar y Confianza en Cada Paso
+              Podología Clínica: Salud, Bienestar y Confianza en Cada Paso
             </h1>
           </div>
 
