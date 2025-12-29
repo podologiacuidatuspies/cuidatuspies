@@ -23,13 +23,22 @@ const Hero = () => {
           {/* Grid con texto y fotografía */}
           <div className="grid xl:grid-cols-2 gap-12 items-center">
             {/* Columna izquierda: Texto y botón */}
-            <div className="space-y-8 animate-fade-in">
-              {/* Subtítulo con emojis */}
-              <p className="text-lg xl:text-xl text-foreground/80 leading-relaxed">
-                👣 Cuidamos la salud de tus pies con atención profesional.
-                Evaluación clínica, tratamiento especializado y prevención podológica.
-                Agenda tu consulta y camina con seguridad y bienestar.
-              </p>
+            <div className="space-y-6 animate-fade-in text-left">
+              {/* Subtítulo con emoji */}
+              <h2 className="text-2xl xl:text-3xl font-semibold text-foreground/90 flex items-center gap-2">
+                <span>👣</span>
+                <span>Cuidamos la salud de tus pies con atención profesional.</span>
+              </h2>
+              
+              {/* Texto destacado con llamado a la acción */}
+              <div className="space-y-4">
+                <p className="text-xl xl:text-2xl font-medium text-primary leading-relaxed">
+                  Evaluación clínica, tratamiento especializado y prevención podológica.
+                </p>
+                <p className="text-lg xl:text-xl font-semibold text-secondary leading-relaxed">
+                  Agenda tu consulta y camina con seguridad y bienestar.
+                </p>
+              </div>
               
               {/* Botón CTA principal */}
               <div className="pt-4">
