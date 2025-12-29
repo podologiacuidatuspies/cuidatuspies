@@ -26,6 +26,11 @@ const Benefits = () => {
       icon: "🔗",
       title: "Red de Derivación a Especialistas",
       description: "Conexión directa con médicos especialistas cuando tu caso lo requiera"
+    },
+    {
+      icon: "🧴",
+      title: "Productos Podológicos",
+      description: "Contamos con diversos productos para hongos, mal olor e higiene"
     }
   ];
 
