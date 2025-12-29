@@ -32,10 +32,10 @@ const Hero = () => {
               
               {/* Texto destacado con llamado a la acción */}
               <div className="space-y-4">
-                <p className="text-xl xl:text-2xl font-medium text-primary leading-relaxed">
+                <p className="text-xl xl:text-2xl font-medium text-foreground/90 leading-relaxed">
                   Evaluación clínica, tratamiento especializado y prevención podológica.
                 </p>
-                <p className="text-lg xl:text-xl font-semibold text-secondary leading-relaxed">
+                <p className="text-lg xl:text-xl font-semibold text-foreground/90 leading-relaxed">
                   Agenda tu consulta y camina con seguridad y bienestar.
                 </p>
               </div>
