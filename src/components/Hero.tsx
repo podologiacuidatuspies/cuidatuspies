@@ -26,8 +26,9 @@ const Hero = () => {
             <div className="space-y-8 animate-fade-in">
               {/* Subtítulo con emojis */}
               <p className="text-lg xl:text-xl text-foreground/80 leading-relaxed">
-                👣 Cuidamos tus pies como se merecen. ✨ Evaluación, tratamiento y prevención especializada. 
-                Agenda tu consulta y recupera la comodidad
+                👣 Cuidamos la salud de tus pies con atención profesional.
+                Evaluación clínica, tratamiento especializado y prevención podológica.
+                Agenda tu consulta y camina con seguridad y bienestar.
               </p>
               
               {/* Botón CTA principal */}
