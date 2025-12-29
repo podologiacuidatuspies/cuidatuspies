@@ -46,8 +46,8 @@ const Hero = () => {
             </div>
 
             {/* Columna derecha: Imagen decorativa */}
-            <div className="relative w-full animate-fade-in">
-              <div className="relative w-full rounded-2xl overflow-hidden shadow-soft">
+            <div className="relative w-full animate-fade-in flex justify-center">
+              <div className="relative w-[60%] rounded-2xl overflow-hidden shadow-soft">
                 <img
                   src="/hero-podologia.jpg"
                   alt="Podóloga profesional realizando tratamiento de uñas con instrumental especializado"
