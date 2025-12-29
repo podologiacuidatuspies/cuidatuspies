@@ -6,7 +6,7 @@ const Services = () => {
       icon: "🦶",
       title: "Tratamientos Comunes",
       description: "Atención especializada para callosidades, durezas, hongos (micosis), uñas encarnadas y engrosadas. Soluciones efectivas para las afecciones más frecuentes.",
-      image: "https://miaoda-site-img.s3cdn.medo.dev/images/942e15d3-4571-4a1a-9d50-046290598e11.jpg"
+      image: "/antes-despues.jpg"
     },
     {
       icon: "🏥",
