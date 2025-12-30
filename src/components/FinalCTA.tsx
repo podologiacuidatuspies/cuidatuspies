@@ -47,7 +47,7 @@ const FinalCTA = () => {
                 <div className="flex items-start gap-3">
                   <span className="text-2xl">🏢</span>
                   <div>
-                    <h4 className="font-semibold text-foreground text-lg">Consulta Presencial</h4>
+                    <h4 className="font-semibold text-foreground text-lg">Consulta Presencial Previa Coordinación</h4>
                     <p className="text-foreground/70">
                       Francisco Bilbao 3471, Providencia, Santiago
                     </p>
