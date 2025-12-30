@@ -33,7 +33,7 @@ const ValueProposition = () => {
               </div>
               
               {/* Columna derecha: Certificado */}
-              <div className="relative w-full rounded-2xl overflow-hidden shadow-card">
+              <div className="relative w-full rounded-2xl overflow-hidden shadow-card flex items-center">
                 <img
                   src="/certificado.jpg"
                   alt="Certificado de Inscripción en el Registro Nacional de Prestadores Individuales de Salud - Laura Jimena Núñez Morales"
