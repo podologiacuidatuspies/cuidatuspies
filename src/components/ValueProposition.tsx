@@ -22,12 +22,24 @@ const ValueProposition = () => {
           
           {/* Imagen de la podóloga en acción */}
           <div className="pt-8">
-            <div className="relative w-full max-w-xl mx-auto rounded-2xl overflow-hidden shadow-card">
-              <img
-                src="/laura-profesional.png"
-                alt="Laura Núñez Morales, podóloga profesional"
-                className="w-full h-auto object-cover"
-              />
+            <div className="grid gap-6 xl:grid-cols-2 max-w-5xl mx-auto">
+              {/* Columna izquierda: Foto de Laura */}
+              <div className="relative w-full rounded-2xl overflow-hidden shadow-card">
+                <img
+                  src="/laura-profesional.png"
+                  alt="Laura Núñez Morales, podóloga profesional"
+                  className="w-full h-auto object-cover"
+                />
+              </div>
+              
+              {/* Columna derecha: Certificado */}
+              <div className="relative w-full rounded-2xl overflow-hidden shadow-card">
+                <img
+                  src="/certificado.jpg"
+                  alt="Certificado de Inscripción en el Registro Nacional de Prestadores Individuales de Salud - Laura Jimena Núñez Morales"
+                  className="w-full h-auto object-cover"
+                />
+              </div>
             </div>
           </div>
         </div>
