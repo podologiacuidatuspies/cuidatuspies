@@ -49,7 +49,7 @@ const FinalCTA = () => {
                   <div>
                     <h4 className="font-semibold text-foreground text-lg">Consulta Presencial</h4>
                     <p className="text-foreground/70">
-                      Atención en consulta con todas las medidas de higiene y seguridad. Ubicación a consultar vía WhatsApp.
+                      Francisco Bilbao 3471, Providencia, Santiago
                     </p>
                   </div>
                 </div>
