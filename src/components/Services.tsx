@@ -58,7 +58,7 @@ const Services = () => {
                     <CardTitle className="text-2xl text-foreground mb-2">
                       {service.title}
                     </CardTitle>
-                    <CardDescription className="text-base text-foreground/70">
+                    <CardDescription className="text-base text-foreground/70 whitespace-pre-line">
                       {service.description}
                     </CardDescription>
                   </div>
