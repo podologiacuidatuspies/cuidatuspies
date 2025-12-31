@@ -5,20 +5,12 @@ const Services = () => {
     {
       icon: "🦶",
       title: "Tratamientos Regulares",
-      description: `👣 Atención Podológica Profesional
+      description: `👣 Atención Podológica Regular
 
-Cuidamos la salud de tus pies con un enfoque clínico, seguro y personalizado.
-Nuestro objetivo es aliviar molestias, prevenir complicaciones y mejorar tu calidad de vida.
-
-🦶 Nuestros servicios incluyen:
-
-✔ Tratamiento de callosidades y durezas
-✔ Manejo de hongos (micosis)
-✔ Atención especializada en uñas encarnadas
-✔ Reducción de uñas engrosadas
-✔ Evaluación y prevención podológica integral
-
-✨ Atención profesional, instrumental esterilizado y enfoque personalizado en cada paciente.`,
+• Callosidades y durezas
+• Hongos (micosis)
+• Uñas encarnadas y engrosadas
+• Atención segura y personalizada`,
       image: "/antes-despues.jpg"
     },
     {
