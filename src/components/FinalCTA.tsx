@@ -74,16 +74,6 @@ const FinalCTA = () => {
               </a>
             </Button>
           </div>
-          
-          {/* Información de contacto adicional */}
-          <div className="pt-8 space-y-2">
-            <p className="text-foreground/70">
-              <span className="font-semibold">Podóloga:</span> Laura Núñez Morales
-            </p>
-            <p className="text-foreground/70">
-              <span className="font-semibold">Atención:</span> Lunes a Sábado
-            </p>
-          </div>
         </div>
       </div>
     </section>
