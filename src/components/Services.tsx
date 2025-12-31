@@ -4,13 +4,8 @@ const Services = () => {
   const services = [
     {
       icon: "🦶",
-      title: "Tratamientos Regulares",
-      description: `👣 Atención Podológica Regular
-
-• Callosidades y durezas
-• Hongos (micosis)
-• Uñas encarnadas y engrosadas
-• Atención segura y personalizada`,
+      title: "👣 Atención Podológica Regular",
+      description: "",
       image: "/antes-despues.jpg"
     },
     {
