@@ -1,6 +1,6 @@
 const ValueProposition = () => {
   return (
-    <section className="py-20 xl:py-32 bg-background">
+    <section id="quien-soy" className="py-20 xl:py-32 bg-background">
       <div className="container mx-auto px-6 xl:px-12">
         <div className="max-w-4xl mx-auto text-center space-y-6">
           <h2 className="text-3xl xl:text-5xl font-bold text-foreground">
@@ -8,16 +8,24 @@ const ValueProposition = () => {
           </h2>
           
           <p className="text-lg xl:text-xl text-foreground/70 leading-relaxed">
-            En <span className="font-semibold text-primary">Cuida Tus Pies</span>, ofrecemos un servicio integral 
-            de podología que combina experiencia profesional, técnicas especializadas y un trato cercano. 
-            Laura Núñez Morales, podóloga certificada, se dedica a cuidar la salud y el confort de tus pies 
-            con atención personalizada, diagnóstico preciso y tratamientos efectivos.
+            Laura Núñez Morales es podóloga clínica certificada, con más de 20 años de experiencia 
+            profesional en el diagnóstico y tratamiento de diversas patologías podológicas. Cuenta con 
+            registro N° 116447 en el Registro Nacional de Prestadores Individuales de Salud, lo que 
+            respalda una atención segura, ética y de alto estándar profesional.
           </p>
           
           <p className="text-lg xl:text-xl text-foreground/70 leading-relaxed">
-            Nuestro compromiso es brindarte soluciones profesionales que mejoren tu calidad de vida, 
-            desde el tratamiento de afecciones comunes hasta el cuidado especializado para pacientes diabéticos. 
-            Porque cuando tus pies están bien, todo tu cuerpo lo siente.
+            En <span className="font-semibold text-primary">Cuida Tus Pies</span>, brindamos un servicio 
+            integral de podología, combinando conocimiento clínico, técnicas especializadas y atención 
+            personalizada. Nuestro enfoque está orientado a entregar soluciones efectivas y duraderas, 
+            tanto en tratamientos podológicos generales como en cuidados especializados, incluyendo 
+            atención a pacientes diabéticos.
+          </p>
+          
+          <p className="text-lg xl:text-xl text-foreground/70 leading-relaxed">
+            Nuestro compromiso es ofrecer una experiencia profesional de calidad, enfocada en el bienestar, 
+            la prevención y la mejora de la calidad de vida de nuestros pacientes. Pies sanos, mayor 
+            bienestar y mejor calidad de vida.
           </p>
           
           {/* Imagen de la podóloga en acción */}

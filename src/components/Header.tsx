@@ -11,6 +11,7 @@ const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const menuItems = [
+    { label: "Quien Soy", href: "#quien-soy" },
     { label: "Tarifas Servicios", href: "#tarifas" },
     { label: "Productos Cuidado Anti Hongos", href: "#productos" },
     { label: "Donde Atiende?", href: "#ubicacion" },
