@@ -55,12 +55,6 @@ const FinalCTA = () => {
                 </div>
               </div>
             </div>
-
-            <div className="pt-4 border-t border-border">
-              <p className="text-foreground/70">
-                <span className="font-semibold">Cobertura:</span> Consulta disponibilidad en tu zona
-              </p>
-            </div>
           </div>
           
           <div className="flex flex-col xl:flex-row gap-4 justify-center items-center pt-6">
