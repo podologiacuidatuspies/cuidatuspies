@@ -4,7 +4,7 @@ const Services = () => {
   const services = [
     {
       icon: "🦶",
-      title: "Tratamientos Comunes",
+      title: "Tratamientos Regulares",
       description: "Atención especializada para callosidades, durezas, hongos (micosis), uñas encarnadas y engrosadas. Soluciones efectivas para las afecciones más frecuentes.",
       image: "/antes-despues.jpg"
     },
