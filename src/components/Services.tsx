@@ -7,8 +7,7 @@ const Services = () => {
       title: "Atención Podológica Regular",
       description: `• Callosidades y durezas
 • Hongos (micosis)
-• Corte y Rebaje de Uñas
-• Atención segura y personalizada`,
+• Corte y Rebaje de Uñas`,
       image: "/antes-despues.jpg"
     },
     {
