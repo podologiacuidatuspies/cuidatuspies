@@ -29,8 +29,8 @@ const Services = () => {
     {
       icon: "👥",
       title: "Convenios Grupales",
-      description: `• Tarifas preferenciales para empresas
-• Beneficios especiales para grupos
+      description: `• Tarifas preferenciales para grupos
+• Precio Calculado en base al numero de personas
 • Planes diseñados para el cuidado integral de los pies`,
       image: "https://miaoda-site-img.s3cdn.medo.dev/images/d8f64404-6677-4e49-bf0f-6c84e0611998.jpg"
     }
