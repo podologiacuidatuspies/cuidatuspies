@@ -4,7 +4,7 @@ const Services = () => {
   const services = [
     {
       icon: "🦶",
-      title: "👣 Atención Podológica Regular",
+      title: "Atención Podológica Regular",
       description: "",
       image: "/antes-despues.jpg"
     },
