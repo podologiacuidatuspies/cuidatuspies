@@ -13,7 +13,8 @@ const Services = () => {
     {
       icon: "🏥",
       title: "Podología Clínica y Diabética",
-      description: "Enfoque especializado con máxima prioridad en seguridad y derivación oportuna. Cuidado preventivo y tratamiento para pacientes con diabetes.",
+      description: `• Uñas Encarnadas
+• Atención pacientes Diabéticos`,
       image: "https://miaoda-site-img.s3cdn.medo.dev/images/6c4c7d74-f1a9-46d1-855c-9061171b402c.jpg"
     },
     {
