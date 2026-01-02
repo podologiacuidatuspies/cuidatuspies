@@ -8,7 +8,7 @@ const Services = () => {
       description: `• Callosidades y durezas
 • Hongos (micosis)
 • Corte y Rebaje de Uñas`,
-      image: "https://miaoda-site-img.s3cdn.medo.dev/images/330d2bd8-833d-487f-9015-3a92f71a7d1e.jpg"
+      image: "https://miaoda-site-img.s3cdn.medo.dev/images/a1fb67b1-4e24-44b3-b6df-f27ea8e9843c.jpg"
     },
     {
       icon: "🏥",
@@ -16,7 +16,7 @@ const Services = () => {
       description: `• Uñas Encarnadas
 • Uñas Engrosadas
 • Atención Pacientes Diabéticos`,
-      image: "https://miaoda-site-img.s3cdn.medo.dev/images/e44d8ac0-bd3e-4417-b555-91c9402d7386.jpg"
+      image: "https://miaoda-site-img.s3cdn.medo.dev/images/577a84d0-9e75-40c2-92f0-9c19fb7f1f8c.jpg"
     },
     {
       icon: "🏠",
@@ -24,7 +24,7 @@ const Services = () => {
       description: `• Servicio profesional en la comodidad de tu hogar.
 • Para personas con movilidad reducida o tercera edad.
 • Traslado de todo material y equipo necesario.`,
-      image: "https://miaoda-site-img.s3cdn.medo.dev/images/69d653cb-489a-4f58-8caa-4d7ce84f5460.jpg"
+      image: "https://miaoda-site-img.s3cdn.medo.dev/images/94b51f04-96b3-4c4e-8085-b5e4fab658c6.jpg"
     },
     {
       icon: "👥",
@@ -32,7 +32,7 @@ const Services = () => {
       description: `• Tarifas preferenciales para grupos
 • Precio Calculado en base al numero de personas
 • Planes diseñados para el cuidado integral de los pies`,
-      image: "https://miaoda-site-img.s3cdn.medo.dev/images/b757e109-933c-420f-abd4-441c41335950.jpg"
+      image: "https://miaoda-site-img.s3cdn.medo.dev/images/1d44d627-40f4-4a84-8917-b91b0c623434.jpg"
     }
   ];
 
