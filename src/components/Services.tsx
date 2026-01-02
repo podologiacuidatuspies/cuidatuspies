@@ -21,7 +21,9 @@ const Services = () => {
     {
       icon: "🏠",
       title: "Atención a Domicilio",
-      description: "Servicio profesional en la comodidad de tu hogar. Ideal para personas con movilidad reducida o quienes prefieren la atención personalizada en casa.",
+      description: `• Servicio profesional en la comodidad de tu hogar.
+• Para Personas con movilidad reducida o Tercera Edad.
+• Se incluye todo lo Necesario.`,
       image: "https://miaoda-site-img.s3cdn.medo.dev/images/e86893fe-16db-4451-81c7-28371b9d54f5.jpg"
     },
     {
