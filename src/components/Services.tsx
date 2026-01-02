@@ -5,7 +5,10 @@ const Services = () => {
     {
       icon: "🦶",
       title: "Atención Podológica Regular",
-      description: "",
+      description: `• Callosidades y durezas
+• Hongos (micosis)
+• Corte y Rebaje de Uñas
+• Atención segura y personalizada`,
       image: "/antes-despues.jpg"
     },
     {
