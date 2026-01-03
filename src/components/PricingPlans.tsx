@@ -107,7 +107,8 @@ const PricingPlans = () => {
                 
                 <Button
                   asChild
-                  className={`w-full ${
+                  size="lg"
+                  className={`w-full text-lg px-8 py-6 shadow-soft transition-all duration-300 hover:scale-105 ${
                     plan.highlight 
                       ? 'bg-primary hover:bg-primary/90 text-primary-foreground' 
                       : 'bg-secondary hover:bg-secondary/90 text-secondary-foreground'
