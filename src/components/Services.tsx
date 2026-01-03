@@ -1,6 +1,11 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
 
 const Services = () => {
+  const whatsappNumber = "56935835479"; // Número de WhatsApp: +56 9 3583 5479
+  const whatsappMessage = encodeURIComponent("Hola, me gustaría agendar una consulta de podología");
+  const whatsappLink = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`;
+
   const services = [
     {
       icon: "🦶",
@@ -67,13 +72,27 @@ const Services = () => {
                   </div>
                 </div>
               </CardHeader>
-              <CardContent>
+              <CardContent className="space-y-4">
                 <div className="rounded-lg overflow-hidden">
                   <img
                     src={service.image}
                     alt={service.title}
                     className="w-full h-48 object-cover"
                   />
+                </div>
+                
+                {/* Botón de WhatsApp */}
+                <div className="flex justify-center pt-2">
+                  <Button
+                    asChild
+                    size="lg"
+                    className="bg-primary hover:bg-primary/90 text-primary-foreground text-lg px-8 py-6 shadow-soft transition-all duration-300 hover:scale-105"
+                  >
+                    <a href={whatsappLink} target="_blank" rel="noopener noreferrer" className="flex items-center gap-3">
+                      <img src="/whatsapp.png" alt="WhatsApp" className="w-[42px] h-[42px]" />
+                      Agendar por WhatsApp
+                    </a>
+                  </Button>
                 </div>
               </CardContent>
             </Card>
