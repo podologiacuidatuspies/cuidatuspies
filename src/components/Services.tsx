@@ -13,7 +13,7 @@ const Services = () => {
       description: `• Callosidades y durezas
 • Hongos (micosis)
 • Corte y Rebaje de Uñas`,
-      image: "https://miaoda-site-img.s3cdn.medo.dev/images/c3868ddc-eefd-45a2-bb99-703ba318ff52.jpg"
+      image: "https://miaoda-site-img.s3cdn.medo.dev/images/7360ef7f-5b8b-4ff5-8ac8-cc06f40915ee.jpg"
     },
     {
       icon: "🏥",
