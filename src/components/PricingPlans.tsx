@@ -113,7 +113,8 @@ const PricingPlans = () => {
                       : 'bg-secondary hover:bg-secondary/90 text-secondary-foreground'
                   }`}
                 >
-                  <a href={getWhatsappLink(plan.name)} target="_blank" rel="noopener noreferrer">
+                  <a href={getWhatsappLink(plan.name)} target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-3">
+                    <img src="/whatsapp.png" alt="WhatsApp" className="w-[42px] h-[42px]" />
                     Consultar por WhatsApp
                   </a>
                 </Button>
