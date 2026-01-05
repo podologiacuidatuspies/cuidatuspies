@@ -21,7 +21,7 @@ const Services = () => {
       description: `• Uñas Encarnadas
 • Uñas Engrosadas
 • Atención Pacientes Diabéticos`,
-      image: "https://miaoda-site-img.s3cdn.medo.dev/images/577a84d0-9e75-40c2-92f0-9c19fb7f1f8c.jpg"
+      image: "/podologia_clinica_diabetica.png"
     },
     {
       icon: "🏠",
