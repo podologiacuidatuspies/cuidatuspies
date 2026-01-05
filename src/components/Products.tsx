@@ -24,7 +24,7 @@ const Products = () => {
       size: "80 g",
       description: "Previene la aparición de hongos. Limpieza profunda con propiedades antifúngicas.",
       price: "$3.590",
-      image: "https://miaoda-site-img.s3cdn.medo.dev/images/bcf7e8c3-276f-423d-aafd-b4987c54023c.jpg"
+      image: "/jabon_antimicotico.png"
     }
   ];
 
