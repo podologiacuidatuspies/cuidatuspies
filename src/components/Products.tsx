@@ -56,7 +56,7 @@ const Products = () => {
                   <img
                     src={product.image}
                     alt={product.name}
-                    className="w-full h-72 object-cover"
+                    className="w-full h-80 object-cover"
                   />
                 </div>
                 <CardTitle className="text-xl text-foreground">
