@@ -53,6 +53,13 @@ const FinalCTA = () => {
                     </p>
                   </div>
                 </div>
+                <div className="mt-4 rounded-lg overflow-hidden shadow-card">
+                  <img 
+                    src="/mapaconsulta.jpg" 
+                    alt="Mapa de ubicación - Francisco Bilbao 3471, Providencia, Santiago" 
+                    className="w-full h-auto object-cover"
+                  />
+                </div>
               </div>
             </div>
           </div>
