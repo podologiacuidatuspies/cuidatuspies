@@ -37,7 +37,7 @@ const Services = () => {
       description: `• Tarifas preferenciales para grupos
 • Precio Calculado en base al numero de personas
 • Planes diseñados para el cuidado integral de los pies`,
-      image: "https://miaoda-site-img.s3cdn.medo.dev/images/1d44d627-40f4-4a84-8917-b91b0c623434.jpg"
+      image: "/grupo_asilo_podologia.png"
     }
   ];
 
