@@ -13,7 +13,6 @@ const Footer = () => {
             </p>
             <div className="space-y-2 text-sm text-foreground/70">
               <p>📱 WhatsApp: +56 9 3583 5479</p>
-              <p>📧 Email: contacto@cuidatuspies.cl</p>
             </div>
           </div>
           
