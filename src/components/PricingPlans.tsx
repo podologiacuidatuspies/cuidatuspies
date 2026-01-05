@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Check } from "lucide-react";
 
 const PricingPlans = () => {
-  const whatsappNumber = "56935835479"; // Número de WhatsApp: +56 9 3583 5479
+  const whatsappLink = "https://wa.link/np4q7n";
   
   const plans = [
     {
@@ -53,9 +53,8 @@ const PricingPlans = () => {
     }
   ];
 
-  const getWhatsappLink = (planName: string) => {
-    const message = encodeURIComponent(`Hola, me interesa el ${planName}. ¿Podrías darme más información?`);
-    return `https://wa.me/${whatsappNumber}?text=${message}`;
+  const getWhatsappLink = () => {
+    return whatsappLink;
   };
 
   return (
@@ -114,7 +113,7 @@ const PricingPlans = () => {
                       : 'bg-secondary hover:bg-secondary/90 text-secondary-foreground'
                   }`}
                 >
-                  <a href={getWhatsappLink(plan.name)} target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-3">
+                  <a href={getWhatsappLink()} target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-3">
                     <img src="/whatsapp.png" alt="WhatsApp" className="w-[42px] h-[42px]" />
                     Consultar por WhatsApp
                   </a>

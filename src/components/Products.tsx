@@ -2,7 +2,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Button } from "@/components/ui/button";
 
 const Products = () => {
-  const whatsappNumber = "56935835479"; // Número de WhatsApp: +56 9 3583 5479
+  const whatsappLink = "https://wa.link/np4q7n";
   
   const products = [
     {
@@ -28,9 +28,8 @@ const Products = () => {
     }
   ];
 
-  const getWhatsappLink = (productName: string) => {
-    const message = encodeURIComponent(`Hola, me interesa el producto: ${productName}. ¿Está disponible?`);
-    return `https://wa.me/${whatsappNumber}?text=${message}`;
+  const getWhatsappLink = () => {
+    return whatsappLink;
   };
 
   return (
@@ -81,7 +80,7 @@ const Products = () => {
                     size="lg"
                     className="bg-secondary hover:bg-secondary/90 text-secondary-foreground text-lg px-8 py-6"
                   >
-                    <a href={getWhatsappLink(product.name)} target="_blank" rel="noopener noreferrer" className="flex items-center gap-3">
+                    <a href={getWhatsappLink()} target="_blank" rel="noopener noreferrer" className="flex items-center gap-3">
                       <img src="/whatsapp.png" alt="WhatsApp" className="w-[42px] h-[42px]" />
                       Consultar
                     </a>

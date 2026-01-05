@@ -2,9 +2,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Button } from "@/components/ui/button";
 
 const Services = () => {
-  const whatsappNumber = "56935835479"; // Número de WhatsApp: +56 9 3583 5479
-  const whatsappMessage = encodeURIComponent("Hola, me gustaría agendar una consulta de podología");
-  const whatsappLink = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`;
+  const whatsappLink = "https://wa.link/np4q7n";
 
   const services = [
     {

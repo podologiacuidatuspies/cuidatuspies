@@ -1,9 +1,7 @@
 import { Button } from "@/components/ui/button";
 
 const FinalCTA = () => {
-  const whatsappNumber = "56935835479"; // Número de WhatsApp: +56 9 3583 5479
-  const whatsappMessage = encodeURIComponent("Hola, me gustaría una evaluación personalizada para mis pies");
-  const whatsappLink = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`;
+  const whatsappLink = "https://wa.link/np4q7n";
 
   return (
     <section className="py-20 xl:py-32 bg-gradient-hero relative overflow-hidden">
