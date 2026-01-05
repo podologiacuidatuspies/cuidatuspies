@@ -30,7 +30,7 @@ const Services = () => {
       image: "/fachada_domicilio_podologia.png"
     },
     {
-      icon: "👨‍👩‍👦",
+      icon: "👴👵👵",
       title: "Convenios Grupales",
       description: `• Tarifas preferenciales para grupos
 • Precio Calculado en base al numero de personas
