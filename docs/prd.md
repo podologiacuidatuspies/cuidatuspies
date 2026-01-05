@@ -10,10 +10,8 @@ Sitio web profesional para servicios de podología que ofrece atención integral
 
 ### 3.1 Sección Hero (Portada)
 - Título principal H1: 'Podología Profesional: Salud, Bienestar y Confianza en Cada Paso'
-- Subtítulo con llamada a la acción: '👣 Cuidamos tus pies como se merecen. ✨ Evaluación, tratamiento y prevención especializada. Agenda tu consulta y recupera la comodidad'
-- Botón principal: '📱 Agendar por WhatsApp' (enlace directo a WhatsApp)
-
-### 3.2 Sección de Propuesta de Valor\n- Título: 'Tu Bienestar Comienza por la Base'
+- Subtítulo con llamada a la acción: '👣 Cuidamos tus pies como se merecen. ✨ Evaluación, tratamiento y prevención especializada. Agenda tu consulta y recupera la comodidad'\n- Botón principal: '📱 Agendar por WhatsApp' (enlace directo a WhatsApp)
+\n### 3.2 Sección de Propuesta de Valor\n- Título: 'Tu Bienestar Comienza por la Base'
 - Texto descriptivo sobre el servicio integral que ofrece Laura Núñez Morales, enfocado en salud y confort de los pies con trato cercano y profesional
 
 ### 3.3 Servicios Especializados
@@ -59,13 +57,33 @@ Sitio web profesional para servicios de podología que ofrece atención integral
   - Talco con Óxido de Zinc (30 g): Absorbe humedad y protege el pie - $3.990
   - Jabón Antimicótico (80 g): Previene la aparición de hongos - $3.590
 
-### 3.7 Llamado a la Acción Final
-- Título: '¿Listo para dar el primer paso hacia el bienestar?'
+### 3.7 Llamado a la Acción Final\n- Título: '¿Listo para dar el primer paso hacia el bienestar?'
 - Texto: 'Contáctanos hoy mismo para una evaluación personalizada. Resolvemos tus dudas y te ayudamos a elegir el mejor plan para tu salud podal'
 - Botón destacado: '💬 Agendar Consulta por WhatsApp'
 
-## 4. Estilo de Diseño\n
-- **Paleta de colores**: Tonos pastel suaves de azul claro, verde agua y beige, transmitiendo calma, limpieza y bienestar profesional
-- **Tipografía**: Fuente sans-serif limpia y legible para títulos y textos, asegurando fácil lectura en todos los dispositivos\n- **Imágenes**: Fotografías de alta calidad mostrando pies cuidados, kit profesional y la podóloga en acción, evitando imágenes genéricas de stock\n- **Diseño responsive**: Adaptación perfecta a móviles, tablets y desktop con navegación fluida
-- **Estructura visual**: Uso de tarjetas, tablas comparativas y listas con iconos para presentar información de forma escaneable y organizada\n- **Botones CTA**: Diseño destacado en color contrastante con iconos, ubicados estratégicamente en múltiples secciones
-- **Optimización**: Carga rápida mediante compresión de imágenes y código optimizado
+## 4. Configuración de Supabase
+
+### 4.1 Archivo de Configuración
+Crear el archivo src/lib/supabase.js con el siguiente contenido:
+
+```javascript
+import { createClient } from '@supabase/supabase-js'
+
+const supabaseUrl = import.meta.env.VITE_SUPABASE_URL\nconst supabaseAnonKey = import.meta.env.VITE_SUPABASE_ANON_KEY
+
+export const supabase = createClient(
+  supabaseUrl,
+  supabaseAnonKey
+)\n```
+
+### 4.2 Variables de Entorno
+Configurar las siguientes variables de entorno en el archivo .env:
+- VITE_SUPABASE_URL: URL del proyecto Supabase
+- VITE_SUPABASE_ANON_KEY: Clave anónima del proyecto Supabase
+\n## 5. Estilo de Diseño
+\n- **Paleta de colores**: Tonos pastel suaves de azul claro, verde agua y beige, transmitiendo calma, limpieza y bienestar profesional
+- **Tipografía**: Fuente sans-serif limpia y legible para títulos y textos, asegurando fácil lectura en todos los dispositivos
+- **Imágenes**: Fotografías de alta calidad mostrando pies cuidados, kit profesional y la podóloga en acción, evitando imágenes genéricas de stock
+- **Diseño responsive**: Adaptación perfecta a móviles, tablets y desktop con navegación fluida
+- **Estructura visual**: Uso de tarjetas, tablas comparativas y listas con iconos para presentar información de forma escaneable y organizada
+- **Botones CTA**: Diseño destacado en color contrastante con iconos, ubicados estratégicamente en múltiples secciones\n- **Optimización**: Carga rápida mediante compresión de imágenes y código optimizado
