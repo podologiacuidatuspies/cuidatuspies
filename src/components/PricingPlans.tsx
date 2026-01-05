@@ -107,13 +107,13 @@ const PricingPlans = () => {
                 <Button
                   asChild
                   size="lg"
-                  className={`w-full text-lg px-8 py-6 shadow-soft transition-all duration-300 hover:scale-105 ${
+                  className={`w-full text-white text-lg px-8 py-6 shadow-soft transition-all duration-300 hover:scale-105 ${
                     plan.highlight 
-                      ? 'bg-primary hover:bg-primary/90 text-primary-foreground' 
-                      : 'bg-secondary hover:bg-secondary/90 text-secondary-foreground'
+                      ? 'bg-primary hover:bg-primary/90' 
+                      : 'bg-secondary hover:bg-secondary/90'
                   }`}
                 >
-                  <a href={getWhatsappLink()} target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-3">
+                  <a href={getWhatsappLink()} target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-3 text-white">
                     <img src="/whatsapp.png" alt="WhatsApp" className="w-[42px] h-[42px]" />
                     Consultar por WhatsApp
                   </a>
