@@ -29,7 +29,7 @@ const Services = () => {
       description: `• Servicio profesional en la comodidad de tu hogar.
 • Para personas con movilidad reducida o tercera edad.
 • Traslado de todo material y equipo necesario.`,
-      image: "https://miaoda-site-img.s3cdn.medo.dev/images/94b51f04-96b3-4c4e-8085-b5e4fab658c6.jpg"
+      image: "/fachada_domicilio_podologia.png"
     },
     {
       icon: "👥",
