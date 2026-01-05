@@ -80,7 +80,8 @@ const Products = () => {
                     asChild
                     className="bg-secondary hover:bg-secondary/90 text-secondary-foreground"
                   >
-                    <a href={getWhatsappLink(product.name)} target="_blank" rel="noopener noreferrer">
+                    <a href={getWhatsappLink(product.name)} target="_blank" rel="noopener noreferrer" className="flex items-center gap-3">
+                      <img src="/whatsapp.png" alt="WhatsApp" className="w-[42px] h-[42px]" />
                       Consultar
                     </a>
                   </Button>
