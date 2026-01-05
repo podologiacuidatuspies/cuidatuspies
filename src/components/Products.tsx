@@ -17,7 +17,7 @@ const Products = () => {
       size: "30 g",
       description: "Absorbe la humedad y protege el pie. Ideal para prevenir rozaduras y mantener los pies secos.",
       price: "$3.990",
-      image: "https://miaoda-site-img.s3cdn.medo.dev/images/061ad2d7-d4d7-4073-b8da-143d12e6a1ba.jpg"
+      image: "/talco_antimicotico.png"
     },
     {
       name: "Jabón Antimicótico",
