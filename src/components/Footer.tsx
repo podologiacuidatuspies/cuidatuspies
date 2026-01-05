@@ -21,7 +21,7 @@ const Footer = () => {
           <div className="space-y-4">
             <h3 className="text-lg font-semibold text-foreground">Servicios</h3>
             <ul className="space-y-2 text-sm text-foreground/70">
-              <li>Tratamientos Comunes</li>
+              <li>Atención Podológica Regular</li>
               <li>Podología Clínica y Diabética</li>
               <li>Atención a Domicilio</li>
               <li>Convenios Grupales</li>
