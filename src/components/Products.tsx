@@ -10,7 +10,7 @@ const Products = () => {
       size: "10 ml",
       description: "Tratamiento intensivo para hongos en las uñas. Fórmula especializada de uso tópico.",
       price: "$7.990",
-      image: "https://miaoda-site-img.s3cdn.medo.dev/images/4fc2d4a8-487d-4e5b-b703-7849123a8e77.jpg"
+      image: "/esmalte_terbinafina.png"
     },
     {
       name: "Talco con Óxido de Zinc",
