@@ -8,24 +8,19 @@ const ValueProposition = () => {
           </h2>
           
           <p className="text-lg xl:text-xl text-foreground/70 leading-relaxed">
-            Laura Núñez Morales es podóloga clínica certificada, con más de 20 años de experiencia 
-            profesional en el diagnóstico y tratamiento de diversas patologías podológicas. Cuenta con 
-            registro N° 116447 en el Registro Nacional de Prestadores Individuales de Salud, lo que 
-            respalda una atención segura, ética y de alto estándar profesional.
+            En <span className="font-semibold text-primary">Cuida Tus Pies</span>, ofrecemos podología 
+            clínica integral, combinando experiencia, técnicas especializadas y una atención cercana y 
+            personalizada. Nos especializamos en tratamientos efectivos para patologías podológicas comunes 
+            y complejas, incluyendo pacientes diabéticos, siempre con un enfoque preventivo y resolutivo.
           </p>
           
           <p className="text-lg xl:text-xl text-foreground/70 leading-relaxed">
-            En <span className="font-semibold text-primary">Cuida Tus Pies</span>, brindamos un servicio 
-            integral de podología, combinando conocimiento clínico, técnicas especializadas y atención 
-            personalizada. Nuestro enfoque está orientado a entregar soluciones efectivas y duraderas, 
-            tanto en tratamientos podológicos generales como en cuidados especializados, incluyendo 
-            atención a pacientes diabéticos.
+            Nuestro objetivo es claro: mejorar tu bienestar y calidad de vida a través de pies sanos y 
+            bien cuidados.
           </p>
           
-          <p className="text-lg xl:text-xl text-foreground/70 leading-relaxed">
-            Nuestro compromiso es ofrecer una experiencia profesional de calidad, enfocada en el bienestar, 
-            la prevención y la mejora de la calidad de vida de nuestros pacientes. Pies sanos, mayor 
-            bienestar y mejor calidad de vida.
+          <p className="text-lg xl:text-xl text-foreground/80 font-medium leading-relaxed">
+            Confianza, experiencia y resultados que se sienten en cada paso. 👣✨
           </p>
           
           {/* Imagen de la podóloga en acción */}
