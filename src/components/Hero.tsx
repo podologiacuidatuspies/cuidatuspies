@@ -57,7 +57,7 @@ const Hero = () => {
             <div className="relative w-full animate-fade-in flex justify-center">
               <div className="relative w-[72%] rounded-2xl overflow-hidden shadow-soft">
                 <img
-                  src="/hero-podologia.jpg"
+                  src="/imagen-principal-podologa-podologia.png"
                   alt="Podóloga profesional realizando tratamiento de uñas con instrumental especializado"
                   className="w-full h-auto object-cover"
                 />
