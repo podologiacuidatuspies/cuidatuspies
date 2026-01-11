@@ -53,7 +53,7 @@ const Header = () => {
               <button
                 key={item.href}
                 onClick={() => scrollToSection(item.href)}
-                className="text-sm font-medium text-black hover:text-black/70 transition-colors"
+                className="text-base font-semibold text-black hover:text-black/70 transition-colors"
               >
                 {item.label}
               </button>
