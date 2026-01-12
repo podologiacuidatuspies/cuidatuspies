@@ -55,7 +55,7 @@ const Hero = () => {
 
             {/* Columna derecha: Imagen decorativa */}
             <div className="relative w-full animate-fade-in flex justify-center">
-              <div className="relative w-[72%] rounded-2xl overflow-hidden shadow-soft">
+              <div className="relative w-[94%] rounded-2xl overflow-hidden shadow-soft">
                 <img
                   src="/imagen-principal-podologa-podologia.png"
                   alt="Podóloga profesional realizando tratamiento de uñas con instrumental especializado"
